@@ -1,6 +1,6 @@
 import BookClientPage from "./BookClientPage"
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   // Return empty array since book IDs are stored in localStorage and not known at build time
   return []
 }
