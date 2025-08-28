@@ -195,7 +195,7 @@ export default function HomePage() {
 
               return (
                 <div key={book.id} className="relative group">
-                  <Link href={`/book/${book.id}`}>
+                  <Link href={`/book?id=${book.id}`}>
                     <Card className="hover:shadow-lg transition-shadow cursor-pointer">
                       <CardHeader>
                         <CardTitle className="text-lg line-clamp-2">{book.title}</CardTitle>
